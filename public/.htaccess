@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+IndexOptions +Charset=UTF-8
+Options -Multiviews
+RewriteEngine On
+RewriteBase /DiegoFabrega_TrabajoWeb/public
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+</IfModule>
