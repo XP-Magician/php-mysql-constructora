@@ -1,5 +1,5 @@
 <?php
-
+require_once("../work/Libs/Config.php");
 class Database
 {
     public $conn;
@@ -11,10 +11,10 @@ class Database
 
 function dbConnection()
 {
-    $this->host = "127.0.0.1";
-    $this->db_name = "Cke";
-    $this->username = "root";
-    $this->password = "";
+    $this->host = $HOST;
+    $this->db_name = $DB_NAME;
+    $this->username = $DB_USER;
+    $this->password = $PASSWORD;
     $this->conn = null;
     try {
         $this->conn = new PDO("mysql:host=" . $this->host . ";dbname=" . $this->db_name, $this->username, $this->password);
