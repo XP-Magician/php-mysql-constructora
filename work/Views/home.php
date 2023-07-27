@@ -19,7 +19,7 @@ $estilos= new CargadorCabecera();
                             <p class="card-text">A continuacion tienes los enlaces para revisar el repositorio GitHub y la 
                                 plantilla utilizada en el frontend. 
                             </p>
-                            <a href="http://www.github.com" class="card-link">Repositorio GitHub</a>
+                            <a href="https://github.com/XP-Magician/php-mysql-ejemplo" class="card-link">Repositorio GitHub</a>
                             <a href="http://www.codeply.com/p/w5ZxAjmjpo" class="card-link">Plantilla frontend</a>
                         </div>
                     </div>
