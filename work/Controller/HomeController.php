@@ -36,7 +36,7 @@ class HomeController extends Controller
     }
 
     private function cargaControlador($controlador){
-            $ruta= $_SERVER['DOCUMENT_ROOT'].'/DiegoFabrega_TrabajoWeb/work/Controller/'.$controlador.'Controller.php';
+            $ruta= $_SERVER['DOCUMENT_ROOT'].'/work/Controller/'.$controlador.'Controller.php';
              if(file_exists( $ruta)){
                  require_once ($ruta);
             }else{
