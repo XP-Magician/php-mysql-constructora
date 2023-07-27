@@ -9,6 +9,6 @@ class CargadorCabecera
     }
 
     private function cargar(){
-            require_once ( $_SERVER['DOCUMENT_ROOT']."/DiegoFabrega_TrabajoWeb/work/Views/estaticas/cabecera.php");
+            require_once ( $_SERVER['DOCUMENT_ROOT']."/work/Views/estaticas/cabecera.php");
         }
 }

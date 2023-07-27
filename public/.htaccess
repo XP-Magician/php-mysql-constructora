@@ -2,7 +2,7 @@
 IndexOptions +Charset=UTF-8
 Options -Multiviews
 RewriteEngine On
-RewriteBase /DiegoFabrega_TrabajoWeb/public
+RewriteBase /htdocs/public
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-l
